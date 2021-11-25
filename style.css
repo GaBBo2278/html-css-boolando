@@ -1,0 +1,100 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    margin: 100px auto;
+    width: 80%;
+}
+
+.firstrow {
+    margin: 40px 0px;
+}
+.box {
+    position: relative;
+    width: 30%;
+    
+    margin: 5px;
+}
+.details {
+    width: 50%;
+}
+
+.img1a {
+    display: block;
+    width: 100%;
+}
+
+.img1b {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.first-box:hover .img1b {
+    opacity: 1;
+}
+
+#heart {
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 10px;
+    font-size: 30;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.discount {
+    position: absolute;
+    background-color: #eb0037;
+    color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    font-size: 12px;
+    left: 0;
+    bottom: 20px;
+}
+
+.sustainability {
+    position: absolute;
+    background-color: #00875a;
+    color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    font-size: 12px;
+    left: 40px;
+    bottom: 20px;
+}
+
+.brand {
+    font-size: 14px;
+    width: 30%;
+    margin: 0;
+}
+
+.model {
+    width: 30%;
+    margin: 0;
+    font-weight: bold;
+}
+
+.price {
+    width: 30%;
+    margin: 0;
+    font-size: 14px;
+}
+
+.price .or {
+    font-weight: bold;
+    color: #eb0037;
+}
+
+.price .discounted {
+    text-decoration: line-through;
+}
+
